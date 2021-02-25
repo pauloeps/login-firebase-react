@@ -11,12 +11,12 @@ import 'firebase/auth'
 })*/
 
 const app = firebase.initializeApp({
-    apiKey: "AIzaSyD9W-4Mj9SfpwdQcMb8YlAgEpoKd4Sha0A",
-    authDomain: "auth-development-7f817.firebaseapp.com",
-    projectId: "auth-development-7f817",
-    storageBucket: "auth-development-7f817.appspot.com",
-    messagingSenderId: "383378948436",
-    appId: "1:383378948436:web:5d3c5e8fff52df3bacc8c1"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
   });
 
 export const auth = app.auth()
